@@ -1,4 +1,4 @@
-# Tuareg Mode for Android # 
+# Tuareg Mode for Android 
 
 The goal of this project is to port OCaml 4.01 in Android OS
 
