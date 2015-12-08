@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tuareg Mode for Android - OCamlDroid</string>
+    <string name='menu_addpanel'>Add Panel</string>
+    <string name='menu_open'>Import Sources</string>
+    <string name='menu_save'>Save Sources</string>
+    <string name='menu_clear'>Clear Output</string>
+    <string name="menu_about">About</string>
+    <string name="menu_quit">Exit</string>
+    <string name="editor_hint">OCaml user input:</string>
+    <string name="compile_paragraph">Compile paragraph</string>
+    <string name="compile_all">Compile all</string>
+    <string name="clear_toast">View cleared by user</string>
+    <string name="clipboard_toast">Sources merged and copied to Clipboard</string>
+    <string name="file_external_toast">Sources merged and saved in sdcard/ocaml/.</string>
+    <string name="file_readonly_toast">External storage access denied. Please check that your phone is not connected to your computer in Mass Storage Mode and try again.</string>
+    <string name="file_no_sdcard">Error : unable to access SD Card.</string>
+    <string name="file_not_saved">Sources not saved.</string>
+    <string name="file_write_fail">Error while saving your sources. Please try again.</string>
+    <string name="filename_hint">Enter a new or an existing file name.</string>
+    <string name="file_read_fail">Error while reading the file: file corrupted.</string>
+    <string name="existing_file">This file already exists. Do you want to overwrite it?</string>
+    <string name="file_directory_not_found">Directory not found or empty.</string>
+    <string name="data_lost">Data has been lost. Please compile again.</string>
+    <string name="toplevel_start_fail">/!\\ Fatal Error : unable to start the Toplevel /!\\\nPlease restart the application.</string>
+    <string name='copyright'>Copyright &#169; 2015 Alessio Manai\n
+
+        Copyright &#169; 2012 Keigo IMAI\n
+        Copyright &#169; 2012 Romain VERNOUX\n
+        Copyright &#169; 1995-2012 INRIA\n\n
+
+        This program includes compiled code of Objective Caml 3.12.\n\n
+
+        Please contact us to report bugs, ask for features or if you have any question.\n\n
+
+</string>
+</resources>

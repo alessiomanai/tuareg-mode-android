@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="250dp"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="10dip" >
+  	<TextView 
+		android:id="@+id/main" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/menu_save"
+		android:textStyle="bold" 
+		android:textSize="20sp" 
+		android:gravity="center" 
+		android:layout_marginBottom="20dp"/>
+  	<TextView
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:text="@string/existing_file" 
+  		android:layout_marginBottom="20dp"/>
+ 	<LinearLayout
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:orientation="horizontal" 
+ 		android:gravity="center">
+ 			<Button
+ 				android:id="@+id/button_yes"
+ 				android:layout_width="100dp"
+ 				android:layout_height="wrap_content" 
+ 				android:text="Yes" />
+ 			<Button
+ 				android:id="@+id/button_no"
+ 				android:layout_width="100dp"
+ 				android:layout_height="wrap_content" 
+ 				android:text="No" />
+ 	</LinearLayout>
+</LinearLayout>
